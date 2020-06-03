@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.util.Properties;
 
 /**
- * reads the properties file configuration.properties
+ * reads the properties file confugiration.properties
  */
 public class ConfigurationReader {
 
@@ -13,7 +13,7 @@ public class ConfigurationReader {
     static {
 
         try {
-            String path = "configuration.properties";
+            String path = "confugiration.properties";
             FileInputStream input = new FileInputStream(path);
             properties = new Properties();
             properties.load(input);
